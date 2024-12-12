@@ -1,0 +1,162 @@
+/* General Reset */
+
+
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .sign-in {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .sign-in:hover {
+    opacity: 0.9;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  
+  .content {
+    max-width: 50%;
+  }
+  
+  .content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .cta-btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .cta-btn:hover {
+    opacity: 0.9;
+  }
+  
+  .illustration img {
+    max-width: 100%;
+    height: auto;
+  }
+  .card-section{
+    height: 400px;
+    width: 100%;
+    
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .card-1{
+    height: 200px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 20px;
+  }
+  .img-div{
+    display: flex;
+    justify-content: center;
+  }
+  
+.heading-div{
+    margin-right: 80px;
+}
+
+  .section-2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 350px;
+  }
+  .text-heading-center{
+    margin-top: 60px;
+    
+  }
+  .f-cards-1{
+    border-radius: 25px;
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+  }
+  .features-cards{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  }
+  .input{
+    height: 60px;
+    width: 350px;
+    border-radius: 25px;
+    border: 2px solid black;
+    margin-right: 20px;
+    
+  }
+  .main-last{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .fotter{
+    background-color: black;
+    height: 40px;
+  }
